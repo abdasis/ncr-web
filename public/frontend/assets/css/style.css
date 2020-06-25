@@ -657,6 +657,8 @@ p {
 .bg-image {
     background: url('/frontend/assets/images/bg-slider.jpg') rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
+    background-position: center center;
+    background-size: cover;
 }
 
 .slider-title {

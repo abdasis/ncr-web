@@ -17,23 +17,14 @@
                 <li class="nav-item">
                     <a href="#features" class="nav-link">Features</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#demo" class="nav-link">Demos</a>
-                </li>
+
                 <li class="nav-item">
                     <a href="#pricing" class="nav-link">Pricing</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#faq" class="nav-link">Faqs</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#clients" class="nav-link">Clients</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
             </ul>
-            <button class="btn btn-info navbar-btn">Try for Free</button>
+            <a href="{{ route('pages.contact-us') }}">
+                <button class="btn btn-info navbar-btn"><i class="mdi mdi-phone mr-2"></i>Hubungi</button>
+            </a>
         </div>
     </div>
 </nav>
