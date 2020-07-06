@@ -15,11 +15,11 @@
                     <a href="{{ url('/') }}" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#features" class="nav-link">Features</a>
+                    <a href="{{ route('pages.about-us') }}" class="nav-link">About Us</a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="#pricing" class="nav-link">Pricing</a>
+                    <a href="{{ route('pages.contact-us') }}" class="nav-link">Contact Us</a>
                 </li>
             </ul>
             <a href="{{ route('pages.contact-us') }}">
