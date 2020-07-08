@@ -2,103 +2,76 @@
 
 @section('content')
      <!-- home start -->
-     <section class="bg-home bg-image" id="home">
-        <div class="home-center">
-            <div class="home-desc-center">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="home-title mo-mb-20">
-                                <h1 class="mb-4 text-white slider-title">Simple Made <span class="text-success">Possible <sup>TM</sup></span></h1>
-                                <p class="text-white-50 home-desc mb-5">From small cafes to the most sophisticated banks and retailers on the planet, NCR powers the technology that integrates everything—and runs your entire operation.</p>
-                                <div class="subscribe">
-                                    <form>
-                                        <div class="row">
-                                            <div class="col-md-8">
-                                                <div class="mb-2">
-                                                    <input type="text" class="form-control" placeholder="Enter your e-mail address">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <button type="submit" class="btn btn-success"><i class="mdi mdi-phone mr-1"></i>SUCRIBE</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-7">
-                            <div class="home-img position-relative">
-                                <img src="images/home-img.png" alt="" class="home-first-img">
-                                <img src="images/home-img.png" alt="" class="home-second-img mx-auto d-block">
-                                <img src="images/home-img.png" alt="" class="home-third-img">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end row -->
-                </div>
-                <!-- end container-fluid -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="{{ asset('frontend/assets/slider/slider (1).png') }}" class="d-block w-100" alt="...">
             </div>
+        <div class="carousel-item">
+            <img src="{{ asset('frontend/assets/slider/slider (2).png') }}" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="{{ asset('frontend/assets/slider/slider (3).png') }}" class="d-block w-100" alt="...">
         </div>
-    </section>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+        </a>
+    </div>
     <!-- home end -->
 
 
-    <section class="service py-5 bg-light">
+    <section class="service py-5 bg-light" >
         <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="text-center mb-4 pb-1">
-                        <h1 class="mb-3">Layanan Kami</h1>
-                        <p class="text-muted">The clean and well commented code allows easy customization of the theme.It's designed for describing your app, agency or business.</p>
+           <div class="row" style="margin-top: -130px">
+                <div class="col-md-4">
+                    <div class="card card-about shadow">
+                        <div class="card-body">
+                            <h3 class="card-title text-center font-weight-bolder">Mission</h3>
+                            <div class="card-text text-center">
+                                <p class="font-14">To be a high quality strategic partner</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="col-md-4">
+                   <div class="card card-about shadow">
+                        <div class="card-body">
+                            <h3 class="card-title text-center font-weight-bolder">Vision</h3>
+                            <div class="card-text text-center">
+                                <p class="font-14">To be an innovative and efficient services company</p>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+                <div class="col-md-4">
+                   <div class="card card-about shadow">
+                        <div class="card-body">
+                            <h3 class="card-title text-center font-weight-bolder">Values</h3>
+                            <div class="card-text text-center">
+                                <p class="font-14">Integrity & Continuous Improvement</p>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+           </div>
            <div class="row">
-                <div class="col-md-4">
-                    <div class="card card-inverse text-white">
-                        <img class="card-img img-fluid" src="{{ asset('frontend/assets/images/bg-finance-1.jpg') }}" alt="Card image">
-                        <div class="card-img-overlay">
-                            <h1 class="card-title text-white">Unexpected benefits: Silver linings in the cloudy future of commerce</h1>
-
-                            <p class="card-text">
-                                <button type="button" class="btn btn-success waves-effect waves-light">
-                                    Selengkapnya<span class="btn-label-right"><i class="mdi mdi-arrow-right"></i></span>
-                                </button>
-                            </p>
-                        </div>
-                    </div> <!-- end card-box-->
+                <div class="col-md-5">
+                    <div class="container">
+                        <img class="img-fluid" src="{{ asset('frontend/assets/images/features-img/img-2.png') }}" alt="">
+                    </div>
                 </div>
-
-                <div class="col-md-4">
-                    <div class="card card-inverse text-white">
-                        <img class="card-img img-fluid" src="{{ asset('frontend/assets/images/bg-finance-2.jpg') }}" alt="Card image">
-                        <div class="card-img-overlay">
-                            <h1 class="card-title text-white">Responding to injustice as one global community</h1>
-
-                            <p class="card-text">
-                                <button type="button" class="btn btn-success waves-effect waves-light">
-                                    Selengkapnya<span class="btn-label-right"><i class="mdi mdi-arrow-right"></i></span>
-                                </button>
-                            </p>
-                        </div>
-                    </div> <!-- end card-box-->
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card card-inverse text-white">
-                        <img class="card-img img-fluid" src="{{ asset('frontend/assets/images/bg-finance-4.jpg') }}" alt="Card image">
-                        <div class="card-img-overlay">
-                            <h1 class="card-title text-white">Introducing anti-microbial coating to protect your customers</h1>
-
-                            <p class="card-text">
-                                <button type="button" class="btn btn-success waves-effect waves-light">
-                                    Selengkapnya<span class="btn-label-right"><i class="mdi mdi-arrow-right"></i></span>
-                                </button>
-                            </p>
-                        </div>
-                    </div> <!-- end card-box-->
-                </div>
+               <div class="col-md-7 align-self-center">
+                    <h1 class="text-black font-weight-lighter">About <span class="text-blue">Us</span></h1>
+                    <p class="font-80 font-weight-lighter">
+                        Qualita Indonesia is an excellent technical services company in Indonesia.  We provide flexibility and cost-effective approaches of the highest quality process, confidentiality and on time delivery. Qualita Indonesia is now ISO 9001: 2015 certified for services and maintenance of ATM machine by SGS & UKAS Management System
+                    </p>
+               </div>
            </div>
         </div>
     </section>
@@ -118,123 +91,45 @@
                <div class="col-md-12 mb-3">
                 <div class="card-deck-wrapper">
                     <div class="card-deck">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="{{ asset('frontend/assets/images/bg-finance-1.jpg') }}" alt="Card image cap">
+                        <div class="card shadow-sm">
+                            <img class="card-img-top object-fit" height="150" src="{{ asset('frontend/assets/images/bg-finance-1.jpg') }}" alt="Card image cap">
                             <div class="card-body">
-                                <h2 class="card-title">Banking</h2>
-                                <p class="card-text">This is a longer card with supporting text below as
-                                    a natural lead-in to additional content. This content is a little
-                                    bit longer.</p>
-                                <p class="card-text">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </p>
+                                <h4 class="card-title font-14 text-center">Technical Service Management</h4>
                             </div>
                         </div>
 
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="{{ asset('frontend/assets/images/bg-finance-2.jpg') }}" alt="Card image cap">
+                        <div class="card shadow-sm">
+                            <img class="card-img-top object-fit" height="150" src="{{ asset('frontend/assets/images/bg-finance-2.jpg') }}" alt="Card image cap">
                             <div class="card-body">
-                                <h2 class="card-title">Restaurants</h2>
-                                <p class="card-text">This card has supporting text below as a natural
-                                    lead-in to additional content.</p>
-                                <p class="card-text">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </p>
+                                <h4 class="card-title font-14 text-center">IT Management</h4>
+
                             </div>
                         </div>
 
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="{{ asset('frontend/assets/images/bg-finance-4.jpg') }}" alt="Card image cap">
+                        <div class="card shadow-sm">
+                            <img class="card-img-top object-fit" height="150" src="{{ asset('frontend/assets/images/bg-finance-4.jpg') }}" alt="Card image cap">
                             <div class="card-body">
-                                <h2 class="card-title">Department & Specialty Retail</h2>
-                                <p class="card-text">This is a wider card with supporting text below as
-                                    a natural lead-in to additional content. This card has even longer
-                                    content than the first to show that equal height action.</p>
-                                <p class="card-text">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </p>
+                                <h4 class="card-title font-14 text-center">Project Management</h4>
                             </div>
                         </div>
 
-                    </div> <!-- end card-deck-->
-                </div>
-               </div>
-               <div class="col-md-12 mb-3">
-                <div class="card-deck-wrapper">
-                    <div class="card-deck">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="{{ asset('frontend/assets/images/bg-finance-1.jpg') }}" alt="Card image cap">
+                        <div class="card shadow-sm">
+                            <img class="card-img-top object-fit" height="150" src="{{ asset('frontend/assets/images/bg-finance-4.jpg') }}" alt="Card image cap">
                             <div class="card-body">
-                                <h2 class="card-title">Grocery & Supermarket</h2>
-                                <p class="card-text">This is a longer card with supporting text below as
-                                    a natural lead-in to additional content. This content is a little
-                                    bit longer.</p>
-                                <p class="card-text">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </p>
+                                <h4 class="card-title font-14 text-center">Protect Qube</h4>
                             </div>
                         </div>
 
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="{{ asset('frontend/assets/images/bg-finance-2.jpg') }}" alt="Card image cap">
+                        <div class="card shadow-sm">
+                            <img class="card-img-top object-fit" height="150" src="{{ asset('frontend/assets/images/bg-finance-4.jpg') }}" alt="Card image cap">
                             <div class="card-body">
-                                <h2 class="card-title">Convenience & Fuel Retail</h2>
-                                <p class="card-text">This card has supporting text below as a natural
-                                    lead-in to additional content.</p>
-                                <p class="card-text">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="{{ asset('frontend/assets/images/bg-finance-4.jpg') }}" alt="Card image cap">
-                            <div class="card-body">
-                                <h2 class="card-title">Telecom & Technology</h2>
-                                <p class="card-text">This is a wider card with supporting text below as
-                                    a natural lead-in to additional content. This card has even longer
-                                    content than the first to show that equal height action.</p>
-                                <p class="card-text">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </p>
+                                <h4 class="card-title font-14 text-center">QUEST</h4>
                             </div>
                         </div>
 
                     </div> <!-- end card-deck-->
                 </div>
                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="trusted py-5 bg-dark">
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="text-center mb-4 pb-1">
-                        <h1 class="mb-2 text-light">Trusted <span class="text-success">By</span></h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-2">
-                    <img src="{{ asset('frontend/assets/images/logo/bay-federal-credit-union-logo-200x200.png') }}" alt="">
-                </div>
-                <div class="col-md-2">
-                    <img src="{{ asset('frontend/assets/images/logo/first-citizens-bank-200x200.png') }}" alt="">
-                </div>
-                <div class="col-md-2">
-                    <img src="{{ asset('frontend/assets/images/logo/leos-pizzeria-200x200.png') }}" alt="">
-                </div>
-                <div class="col-md-2">
-                    <img src="{{ asset('frontend/assets/images/logo/logo-chipotle.png') }}" alt="">
-                </div>
-                <div class="col-md-2">
-                    <img src="{{ asset('frontend/assets/images/logo/logo-coastal-cu.png') }}" alt="">
-                </div>
-                <div class="col-md-2">
-                    <img src="{{ asset('frontend/assets/images/logo/logo-firehouse.png') }}" alt="">
-                </div>
             </div>
         </div>
     </section>
@@ -253,9 +148,9 @@
                     <div class="card-deck-wrapper">
                         <div class="card-deck">
                             <div class="card rounded-0">
-                                <img class="card-img-top img-fluid" src="{{ asset('frontend/assets/images/bg-finance-1.jpg') }}" alt="Card image cap">
+                                <img class="card-img-top object-fit" src="{{ asset('frontend/assets/images/bg-finance-1.jpg') }}" alt="Card image cap">
                                 <div class="card-body">
-                                    <h4 class="card-title">Banking</h4>
+                                    <h4 class="card-title font-14 text-center">Banking</h4>
                                     <p class="card-text">
                                         <div class="badge badge-soft-secondary rounded-0 p-1"><i class="mdi mdi-clock mr-1"></i>{{ date('D-m-Y') }}</div> <div class="badge badge-soft-secondary mr-1 p-1 rounded-0"><i class="mdi mdi-account-circle-outline mr-1 "></i>Abd. Asis</div>
                                     </p>
@@ -268,9 +163,9 @@
                             </div>
 
                             <div class="card rounded-0">
-                                <img class="card-img-top img-fluid" src="{{ asset('frontend/assets/images/bg-finance-2.jpg') }}" alt="Card image cap">
+                                <img class="card-img-top object-fit" src="{{ asset('frontend/assets/images/bg-finance-2.jpg') }}" alt="Card image cap">
                                 <div class="card-body">
-                                    <h4 class="card-title">Restaurants</h4>
+                                    <h4 class="card-title font-14 text-center">Restaurants</h4>
                                     <p class="card-text">
                                         <div class="badge badge-soft-secondary rounded-0 p-1"><i class="mdi mdi-clock mr-1"></i>{{ date('D-m-Y') }}</div> <div class="badge badge-soft-secondary mr-1 p-1 rounded-0"><i class="mdi mdi-account-circle-outline mr-1 "></i>Abd. Asis</div>
                                     </p>
@@ -283,9 +178,9 @@
                             </div>
 
                             <div class="card rounded-0">
-                                <img class="card-img-top img-fluid" src="{{ asset('frontend/assets/images/bg-finance-4.jpg') }}" alt="Card image cap">
+                                <img class="card-img-top object-fit" src="{{ asset('frontend/assets/images/bg-finance-4.jpg') }}" alt="Card image cap">
                                 <div class="card-body">
-                                    <h4 class="card-title">Department & Specialty Retail</h4>
+                                    <h4 class="card-title font-14 text-center">Department & Specialty Retail</h4>
                                     <p class="card-text">
                                         <div class="badge badge-soft-secondary rounded-0 p-1"><i class="mdi mdi-clock mr-1"></i>{{ date('D-m-Y') }}</div> <div class="badge badge-soft-secondary mr-1 p-1 rounded-0"><i class="mdi mdi-account-circle-outline mr-1 "></i>Abd. Asis</div>
                                     </p>
@@ -298,9 +193,9 @@
                             </div>
 
                             <div class="card rounded-0">
-                                <img class="card-img-top img-fluid" src="{{ asset('frontend/assets/images/bg-finance-4.jpg') }}" alt="Card image cap">
+                                <img class="card-img-top object-fit" src="{{ asset('frontend/assets/images/bg-finance-4.jpg') }}" alt="Card image cap">
                                 <div class="card-body">
-                                    <h4 class="card-title">Department & Specialty Retail</h4>
+                                    <h4 class="card-title font-14 text-center">Department & Specialty Retail</h4>
                                     <p class="card-text">
                                         <div class="badge badge-soft-secondary rounded-0 p-1"><i class="mdi mdi-clock mr-1"></i>{{ date('D-m-Y') }}</div> <div class="badge badge-soft-secondary mr-1 p-1 rounded-0"><i class="mdi mdi-account-circle-outline mr-1 "></i>Abd. Asis</div>
                                     </p>
@@ -318,4 +213,9 @@
             </div>
         </div>
     </section>
+
+    <section class="peta p-0 m-0">
+        <img class="img-fluid" src="{{ asset('frontend/assets/images/peta-cover.png') }}" alt="">
+    </section>
+
 @endsection

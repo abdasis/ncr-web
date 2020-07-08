@@ -664,3 +664,36 @@ p {
 .slider-title {
     font-size: 48px;
 }
+
+.object-fit {
+    object-fit: cover;
+}
+
+.card-about {
+    border-bottom: 5px solid #00AFEF;
+    position: relative;
+    z-index: 1;
+}
+
+.card-about:hover {
+    color: #fff;
+}
+
+.card-about:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: bottom center;
+    background: #00AFEF;
+    z-index: -1;
+    transition: transform 0.5s;
+}
+
+.card-about:hover::after {
+    transform: scaleY(1);
+    cursor: pointer;
+}
