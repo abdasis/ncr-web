@@ -1,61 +1,36 @@
 <footer class="bg-dark footer">
     <div class="container-fluid">
         <div class="row mb-5">
-            <div class="col-lg-4">
-                <div class="pr-lg-4">
-                    <div class="mb-4">
-                        <img src="images/logo-light.png" alt="" height="20">
-                    </div>
-                    <p class="text-white-50">A Responsive Bootstrap 4 Web App Kit</p>
-                    <p class="text-white-50">Ubold is a fully featured premium admin template built on top of awesome Bootstrap 4.1.3, modern web technology HTML5, CSS3 and jQuery.</p>
+            <div class="col-md-6">
+                <div class="container">
+                    <h1 class="text-white font-16">CONTACT US</h1>
+                    <h2 class="font-14 text-white">Head Office</h2>
+                    <p>
+                        Ruby Commercial TD 19
+                        Jl. Boulevard Selatan – Summarecon
+                        Bekasi 17142 Indonesia
+                    </p>
+                    <h2 class="font-14 text-white">
+                        Telepon
+                    </h2>
+                    <p> +62 21 82693000</p>
+                    <h2 class="font-14 text-white">
+                        Email
+                    </h2>
+                    <p>info@qualita-indonesia.com</p>
                 </div>
             </div>
+            <div class="col-md-6">
+                <h1 class="text-white font-16">
+                Follow Us
+                </h1>
 
-            <div class="col-lg-2">
-                <div class="footer-list">
-                    <p class="text-white mb-2 footer-list-title">About</p>
-                    <ul class="list-unstyled">
-                        <li><a href="#"><i class="mdi mdi-chevron-right mr-2"></i>Home</a></li>
-                        <li><a href="#"><i class="mdi mdi-chevron-right mr-2"></i>Features</a></li>
-                        <li><a href="#"><i class="mdi mdi-chevron-right mr-2"></i>Faq</a></li>
-                        <li><a href="#"><i class="mdi mdi-chevron-right mr-2"></i>Clients</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-lg-2">
-                <div class="footer-list">
-                    <p class="text-white mb-2 footer-list-title">Social</p>
-                    <ul class="list-unstyled">
-                        <li><a href="#"><i class="mdi mdi-chevron-right mr-2"></i>Facebook </a></li>
-                        <li><a href="#"><i class="mdi mdi-chevron-right mr-2"></i>Twitter</a></li>
-                        <li><a href="#"><i class="mdi mdi-chevron-right mr-2"></i>Behance</a></li>
-                        <li><a href="#"><i class="mdi mdi-chevron-right mr-2"></i>Dribble</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-lg-2">
-                <div class="footer-list">
-                    <p class="text-white mb-2 footer-list-title">Support</p>
-                    <ul class="list-unstyled">
-                        <li><a href="#"><i class="mdi mdi-chevron-right mr-2"></i>Help & Support</a></li>
-                        <li><a href="#"><i class="mdi mdi-chevron-right mr-2"></i>Privacy Policy</a></li>
-                        <li><a href="#"><i class="mdi mdi-chevron-right mr-2"></i>Terms & Conditions</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-lg-2">
-                <div class="footer-list">
-                    <p class="text-white mb-2 footer-list-title">More Info</p>
-                    <ul class="list-unstyled">
-                        <li><a href="#"><i class="mdi mdi-chevron-right mr-2"></i>Pricing</a></li>
-                        <li><a href="#"><i class="mdi mdi-chevron-right mr-2"></i>For Marketing</a></li>
-                        <li><a href="#"><i class="mdi mdi-chevron-right mr-2"></i>For Agencies</a></li>
-                        <li><a href="#"><i class="mdi mdi-chevron-right mr-2"></i>Our Apps</a></li>
-                    </ul>
-                </div>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white"><i class="mdi mdi-facebook mr-2"></i>https://www.facebook.com/qualita.ind</a></li>
+                    <li><a href="#" class="text-white"><i class="mdi mdi-instagram mr-2"></i>@Qualita.Indonesia></li>
+                    <li><a href="#" class="text-white"><i class="mdi mdi-linkedin mr-2"></i>Qualita Indonesia</a></li>
+                    <li><a href="#" class="text-white"><i class="mdi mdi-twitter mr-2"></i>@QualitaIndo</a></li>
+                </ul>
             </div>
         </div>
         <!-- end row -->

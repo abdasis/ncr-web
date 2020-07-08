@@ -697,3 +697,16 @@ p {
     transform: scaleY(1);
     cursor: pointer;
 }
+
+.service {
+    margin-top: -130px
+}
+
+@media only screen and (max-width: 400px) {
+    .slider {
+        margin-top: 60px;
+    }
+    .service {
+        margin-top: 0px;
+    }
+}
