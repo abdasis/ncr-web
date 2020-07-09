@@ -1,4 +1,4 @@
-<footer class="bg-dark footer">
+<footer class="footer">
     <div class="container-fluid">
         <div class="row mb-5">
             <div class="col-md-6">
@@ -35,7 +35,7 @@
         </div>
         <!-- end row -->
 
-        <div class="row">
+        <div class="row bottom-footer">
             <div class="col-lg-12">
                 <div class="float-left pull-none">
                     <p class="text-white-50">2015 - 2020 © Ubold. Design by <a href="https://coderthemes.com/" target="_blank" class="text-white-50">Coderthemes</a> </p>

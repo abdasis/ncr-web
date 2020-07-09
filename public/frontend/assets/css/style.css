@@ -710,3 +710,8 @@ p {
         margin-top: 0px;
     }
 }
+
+.footer {
+    background: #001b57;
+    border-bottom: 16px solid #001031;
+}
