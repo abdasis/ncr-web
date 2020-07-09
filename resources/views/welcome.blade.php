@@ -138,7 +138,33 @@
 
 
     <section class="peta p-0 m-0">
+       <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="text-center pb-1">
+                        <h1 class="mb-3">SERVICE <span class="text-blue">LOCATION</span></h1>
+                        <p class="text-black">We provide more than 135 service locations throughout Indonesia for the best service to our customers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+       </div>
         <img class="img-fluid" src="{{ asset('frontend/assets/images/peta-cover.png') }}" alt="">
     </section>
 
+
+    <section>
+        <div class="jumbotron jumbotron-fluid bg-image mb-0">
+            <div class="container py-5">
+            <h1 class="display-4 font-24 font-weight-bolder text-white text-center">CAREER</h1>
+            <p class="font-18 text-center p-0 m-0 text-white"> Recruitment vacancy : </p>
+            <p class="font-18 text-center p-0 m-0 text-white">E mail : career @qualita-indonesia.com </p>
+            <div class="text-center mt-3">
+                <button type="button" class="btn btn-success btn-lg rounded-0 waves-effect width-xl waves-light text-center">
+                    EXPLORE CAREERS<span class="btn-label-right"><i class="mdi mdi-check-all"></i></span>
+                </button>
+            </div>
+            </div>
+        </div>
+    </section>
 @endsection
