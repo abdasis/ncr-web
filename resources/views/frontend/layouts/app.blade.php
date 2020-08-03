@@ -43,9 +43,16 @@
         <script src="{{ url('/') }}/frontend/assets/js/bootstrap.bundle.min.js"></script>
         <script src="{{ url('/') }}/frontend/assets/js/jquery.easing.min.js"></script>
         <script src="{{ url('/') }}/frontend/assets/js/scrollspy.min.js"></script>
-
+        <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+        <script type="text/javascript">
+            $(window).on('load',function(){
+                setTimeout(function(){
+                 }, 3000);
+            });
+        </script>
         <!-- custom js -->
         <script src="{{ url('/') }}/frontend/assets/js/app.js"></script>
+
     </body>
 
 </html>
