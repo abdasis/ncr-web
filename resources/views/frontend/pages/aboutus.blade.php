@@ -2,7 +2,7 @@
 
 
 @section('content')
-<div class="jumbotron jumbotron-fluid bg-image">
+<div class="jumbotron jumbotron-fluid bg-image-contact">
     <div class="container py-5">
       <h1 class="display-4 text-white font-weight-bolder">We turn everyday <br> transactions <br> into meaningful <br> <span class="text-success">relationships</span>.</h1>
     </div>

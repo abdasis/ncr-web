@@ -96,14 +96,14 @@
                         <div class="card shadow-sm">
                             <img class="card-img-top object-fit" height="150" src="{{ asset('frontend/assets/images/bg-finance-1.jpg') }}" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title font-14 text-center">Technical Service Management</h4>
+                                <h4 class="card-title font-17 font-weight-bolder text-center">Technical Service Management</h4>
                             </div>
                         </div>
 
                         <div class="card shadow-sm">
                             <img class="card-img-top object-fit" height="150" src="{{ asset('frontend/assets/images/bg-finance-2.jpg') }}" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title font-14 text-center">IT Management</h4>
+                                <h4 class="card-title font-17 font-weight-bolder text-center">IT Management</h4>
 
                             </div>
                         </div>
@@ -111,21 +111,21 @@
                         <div class="card shadow-sm">
                             <img class="card-img-top object-fit" height="150" src="{{ asset('frontend/assets/images/bg-finance-4.jpg') }}" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title font-14 text-center">Project Management</h4>
+                                <h4 class="card-title font-17 font-weight-bolder text-center">Project Management</h4>
                             </div>
                         </div>
 
                         <div class="card shadow-sm">
                             <img class="card-img-top object-fit" height="150" src="{{ asset('frontend/assets/images/bg-finance-4.jpg') }}" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title font-14 text-center">Protect Qube</h4>
+                                <h4 class="card-title font-17 font-weight-bolder text-center">Protect Qube</h4>
                             </div>
                         </div>
 
                         <div class="card shadow-sm">
                             <img class="card-img-top object-fit" height="150" src="{{ asset('frontend/assets/images/bg-finance-4.jpg') }}" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title font-14 text-center">QUEST</h4>
+                                <h4 class="card-title font-17 font-weight-bolder text-center">QUEST</h4>
                             </div>
                         </div>
 
@@ -142,7 +142,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="text-center pb-1">
-                        <h1 class="mb-3">SERVICE <span class="text-blue">LOCATION</span></h1>
+                        <h1>SERVICE <span class="text-blue">LOCATION</span></h1>
                         <p class="text-black">We provide more than 135 service locations throughout Indonesia for the best service to our customers.
                         </p>
                     </div>
@@ -173,17 +173,16 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+            <h5 class="modal-title" id="exampleModalLongTitle">Berlangganan Sekarang</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
             </div>
             <div class="modal-body">
-            ...
+            <img src="{{ asset('frontend/assets/slider/slider (1).png') }}" class="w-100">
             </div>
             <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-outline-blue">Ok, Berlangganan</button>
             </div>
         </div>
         </div>

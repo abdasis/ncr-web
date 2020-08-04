@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="container-fluid">
-        <div class="row mb-5">
-            <div class="col-md-6">
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-4">
                 <div class="container">
                     <h1 class="text-white font-16">CONTACT US</h1>
                     <h2 class="font-14 text-white">Head Office</h2>
@@ -20,14 +20,19 @@
                     <p>info@qualita-indonesia.com</p>
                 </div>
             </div>
-            <div class="col-md-6">
+
+
+            <div class="col-md-4"></div>
+
+
+            <div class="col-md-4">
                 <h1 class="text-white font-16">
                 Follow Us
                 </h1>
 
                 <ul class="list-unstyled">
                     <li><a href="#" class="text-white"><i class="mdi mdi-facebook mr-2"></i>https://www.facebook.com/qualita.ind</a></li>
-                    <li><a href="#" class="text-white"><i class="mdi mdi-instagram mr-2"></i>@Qualita.Indonesia></li>
+                    <li><a href="#" class="text-white"><i class="mdi mdi-instagram mr-2"></i>@Qualita.Indonesia</li>
                     <li><a href="#" class="text-white"><i class="mdi mdi-linkedin mr-2"></i>Qualita Indonesia</a></li>
                     <li><a href="#" class="text-white"><i class="mdi mdi-twitter mr-2"></i>@QualitaIndo</a></li>
                 </ul>
@@ -39,17 +44,6 @@
             <div class="col-lg-12">
                 <div class="float-left pull-none">
                     <p class="text-white-50">2015 - 2020 © Ubold. Design by <a href="https://coderthemes.com/" target="_blank" class="text-white-50">Coderthemes</a> </p>
-                </div>
-                <div class="float-right pull-none">
-                    <ul class="list-inline social-links">
-                        <li class="list-inline-item text-white-50">
-                            Social :
-                        </li>
-                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-instagram"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="mdi mdi-google-plus"></i></a></li>
-                    </ul>
                 </div>
             </div>
             <!-- end col -->

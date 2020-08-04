@@ -661,6 +661,13 @@ p {
     background-size: cover;
 }
 
+.bg-image-contact {
+    background: url('/frontend/assets/images/peta-cover.png') rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-size: cover;
+}
+
 .slider-title {
     font-size: 48px;
 }
