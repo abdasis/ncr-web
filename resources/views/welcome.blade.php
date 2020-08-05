@@ -93,62 +93,112 @@
                <div class="col-md-12 mb-3">
                 <div class="card-deck-wrapper">
                     <div class="card-deck">
-                        <div class="card shadow-sm solution" id="itTechnical" aria-haspopup="true" aria-expanded="true">
+                        <div class="card shadow-sm solution" data-toggle="modal" data-target="#itTechnicalDesc">
                             <img class="card-img-top object-fit" height="150" src="{{ asset('frontend/assets/images/bg-finance-1.jpg') }}" alt="Card image cap">
                             <div class="card-body">
                                 <h4 class="card-title font-17 font-weight-bolder text-center">Technical Service Management</h4>
-                                <div class="dropdown-menu bg-white border-0 rounded-0 shadow-none" id="itTechnicalDesc">
-                                    <div class="container text-center">
-                                        Field Services, Technical Support, Help Desk & Monitoring
+                                <div class="modal fade" id="itTechnicalDesc" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title" id="exampleModalLongTitle">Technical Service Management</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Field Services, Technical Support, Help Desk & Monitoring
+                                        </div>
+                                      </div>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
 
-                        <div class="card shadow-sm solution" id="itManagement">
+                        <div class="card shadow-sm solution" data-toggle="modal" data-target="#itManagement">
                             <img class="card-img-top object-fit" height="150" src="{{ asset('frontend/assets/images/bg-finance-2.jpg') }}" alt="Card image cap">
                             <div class="card-body">
                                 <h4 class="card-title font-17 font-weight-bolder text-center">IT Management</h4>
-                                <div class="dropdown-menu bg-white border-0 rounded-0 shadow-none" id="itManagementDesc">
-                                    <div class="container text-center" >
-                                        Software Consultation & Development, Quality assurance, IT Technical Support, Website Development
+                                <div class="modal fade" id="itManagement" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title" id="exampleModalLongTitle">IT Management</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Field Services, Technical Support, Help Desk & Monitoring
+                                        </div>
+                                      </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card shadow-sm solution" id="projectManagement">
+                        <div class="card shadow-sm solution" data-toggle="modal" data-target="#projectManagement">
                             <img class="card-img-top object-fit" height="150" src="{{ asset('frontend/assets/images/bg-finance-4.jpg') }}" alt="Card image cap">
                             <div class="card-body">
                                 <h4 class="card-title font-17 font-weight-bolder text-center">Project Management</h4>
-                                <div class="dropdown-menu bg-white border-0 rounded-0 shadow-none" id="projectManagementDesc">
-                                    <div class="container text-center">
-                                        PM Consultation, PM Support & Administration
+                                <div class="modal fade" id="projectManagement" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title" id="exampleModalLongTitle">Project Management</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Field Services, Technical Support, Help Desk & Monitoring
+                                        </div>
+                                      </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card shadow-sm solution" id="protectQube">
+                        <div class="card shadow-sm solution" data-toggle="modal" data-target="#protectQube">
                             <img class="card-img-top object-fit" height="150" src="{{ asset('frontend/assets/images/bg-finance-4.jpg') }}" alt="Card image cap">
                             <div class="card-body">
                                 <h4 class="card-title font-17 font-weight-bolder text-center">Protect Qube</h4>
-                                <div class="dropdown-menu bg-white border-0 rounded-0 shadow-none" id="protectQubeDesc">
-                                    <div class="container text-center">
-                                        Our IOT Security System
+                                <div class="modal fade" id="protectQube" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title" id="exampleModalLongTitle">Protect Qube</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Field Services, Technical Support, Help Desk & Monitoring
+                                        </div>
+                                      </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card shadow-sm solution" id="quest">
-                            <img class="card-img-top object-fit" id="quest" height="150" src="{{ asset('frontend/assets/images/bg-finance-4.jpg') }}" alt="Card image cap">
+                        <div class="card shadow-sm solution" data-toggle="modal" data-target="#quest">
+                            <img class="card-img-top object-fit" height="150" src="{{ asset('frontend/assets/images/bg-finance-4.jpg') }}" alt="Card image cap">
                             <div class="card-body">
                                 <h4 class="card-title font-17 font-weight-bolder text-center">QUEST</h4>
-                                <div class="dropdown-menu bg-white border-0 rounded-0 shadow-none" id="questDesc">
-                                    <div class="container text-center">
-                                        Our monitoring application
+                                <div class="modal fade" id="quest" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title" id="exampleModalLongTitle">Quest</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Field Services, Technical Support, Help Desk & Monitoring
+                                        </div>
+                                      </div>
                                     </div>
                                 </div>
                             </div>
