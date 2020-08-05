@@ -722,3 +722,7 @@ p {
     background: #001b57;
     border-bottom: 16px solid #001031;
 }
+
+.solution:hover {
+    cursor: pointer;
+}

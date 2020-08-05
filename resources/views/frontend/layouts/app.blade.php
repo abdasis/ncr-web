@@ -46,6 +46,7 @@
             });
         </script>
         <!-- custom js -->
+        @yield('js')
         <script src="{{ url('/') }}/frontend/assets/js/app.js"></script>
     </body>
 </html>
