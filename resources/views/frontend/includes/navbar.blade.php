@@ -19,6 +19,10 @@
                 </li>
 
                 <li class="nav-item">
+                    <a href="{{ route('pages.loker') }}" class="nav-link">Lowongan Pekerjaan</a>
+                </li>
+
+                <li class="nav-item">
                     <a href="{{ route('pages.contact-us') }}" class="nav-link">Contact Us</a>
                 </li>
             </ul>

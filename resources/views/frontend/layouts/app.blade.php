@@ -38,13 +38,13 @@
         <script src="{{ url('/') }}/frontend/assets/js/jquery.easing.min.js"></script>
         <script src="{{ url('/') }}/frontend/assets/js/scrollspy.min.js"></script>
         <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
-        <script type="text/javascript">
+        {{-- <script type="text/javascript">
             $(window).on('load',function(){
                 setTimeout(function(){
                     $('#exampleModalCenter').modal('show')
                  }, 3000);
             });
-        </script>
+        </script> --}}
         <!-- custom js -->
         @yield('js')
         <script src="{{ url('/') }}/frontend/assets/js/app.js"></script>

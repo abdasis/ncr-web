@@ -21,4 +21,10 @@ class FrontendController extends Controller
     {
         return view('frontend.pages.aboutus');
     }
+
+    public function lokerPekerjaan()
+    {
+        return view('frontend.pages.loker');
+
+    }
 }

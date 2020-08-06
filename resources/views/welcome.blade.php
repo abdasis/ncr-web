@@ -235,9 +235,11 @@
             <p class="font-18 text-center p-0 m-0 text-white"> Recruitment vacancy : </p>
             <p class="font-18 text-center p-0 m-0 text-white">E mail : career @qualita-indonesia.com </p>
             <div class="text-center mt-3">
-                <button type="button" class="btn btn-success btn-lg rounded-0 waves-effect width-xl waves-light text-center">
-                    EXPLORE CAREERS<span class="btn-label-right"><i class="mdi mdi-check-all"></i></span>
-                </button>
+                <a href="{{ route('pages.loker') }}">
+                    <button type="button" class="btn btn-success btn-lg rounded-0 waves-effect width-xl waves-light text-center">
+                        EXPLORE CAREERS<span class="btn-label-right"><i class="mdi mdi-check-all"></i></span>
+                    </button>
+                </a>
             </div>
             </div>
         </div>

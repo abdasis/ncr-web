@@ -17,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('contact-us', 'Frontend\FrontendController@contactUs')->name('pages.contact-us');
 Route::get('about-us', 'Frontend\FrontendController@aboutUs')->name('pages.about-us');
 Route::get('/', 'Frontend\FrontendController@index')->name('pages.index');
+Route::get('/lowongan-pekerjaan', 'Frontend\FrontendController@lokerPekerjaan')->name('pages.loker');
