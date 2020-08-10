@@ -26,7 +26,7 @@
     </div>
     <div class="col-md-6">
         <div class="container">
-            <img class="rounded-circle mx-auto d-block" height="400px" width="400px"  src="{{ asset('frontend/assets/images/business.jpg') }}" alt="">
+            <img class="rounded-circle mx-auto d-block w-100" height="400px"  src="{{ asset('frontend/assets/images/business.jpg') }}" alt="">
             <h1 class="font-weight-bold">
                 “To succeed in business, you need to make others see your vision."
             </h1>
