@@ -107,7 +107,11 @@
                                           </button>
                                         </div>
                                         <div class="modal-body">
-                                            Field Services, Technical Support, Help Desk & Monitoring
+                                            <ul>
+                                                <li>Field Services</li>
+                                                <li>Technical Support</li>
+                                                <li>Help Desk & Monitoring</li>
+                                            </ul>
                                         </div>
                                       </div>
                                     </div>
@@ -130,7 +134,11 @@
                                           </button>
                                         </div>
                                         <div class="modal-body">
-                                            Field Services, Technical Support, Help Desk & Monitoring
+                                            <ul>
+                                                <li>Software Consultation & Development</li>
+                                                <li>Quality Assurance</li>
+                                                <li>Website Development</li>
+                                            </ul>
                                         </div>
                                       </div>
                                     </div>
@@ -152,7 +160,10 @@
                                           </button>
                                         </div>
                                         <div class="modal-body">
-                                            Field Services, Technical Support, Help Desk & Monitoring
+                                            <ul>
+                                                <li>PM Consultation</li>
+                                                <li>PM Suport & Administration</li>
+                                            </ul>
                                         </div>
                                       </div>
                                     </div>
@@ -174,7 +185,9 @@
                                           </button>
                                         </div>
                                         <div class="modal-body">
-                                            Field Services, Technical Support, Help Desk & Monitoring
+                                            <ul>
+                                                <li>Our IOT Security System</li>
+                                            </ul>
                                         </div>
                                       </div>
                                     </div>
@@ -196,7 +209,9 @@
                                           </button>
                                         </div>
                                         <div class="modal-body">
-                                            Field Services, Technical Support, Help Desk & Monitoring
+                                            <ul>
+                                                <li>Our Monitoring Application</li>
+                                            </ul>
                                         </div>
                                       </div>
                                     </div>
