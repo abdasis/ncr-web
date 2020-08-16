@@ -11,4 +11,9 @@ class SettingController extends Controller
     {
         return view('backend.index');
     }
+
+    public function pengaturan()
+    {
+
+    }
 }

@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::group(['prefix' => 'admin'], function () {
     Route::get('/', 'Backend\SettingController@index');
     Route::get('tampilan', 'Backend\SettingController@pengaturan')->name('setting.tampilan');
+    Route::resource('sertification', 'Backend\SertifikasiController');
 });
 
 Route::get('contact-us', 'Frontend\FrontendController@contactUs')->name('pages.contact-us');
