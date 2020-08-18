@@ -6,7 +6,11 @@
                     <h1 class="text-white font-16">CONTACT US</h1>
                     <h2 class="font-14 text-white">Head Office</h2>
                     <p>
-                        Ruby Commercial TD 19 Jl. Boulevard Selatan – Summarecon Bekasi 17142 Indonesia
+                        Ruby Commercial TD 19
+                        <br>
+                        Jl. Boulevard Selatan – Summarecon
+                        <br>
+                        Bekasi 17142 Indonesia
                     </p>
                     <h2 class="font-14 text-white">
                         Telepon
